@@ -1,0 +1,42 @@
+﻿body {
+  /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+}
+
+#title{
+    background : #eee;
+    height:60px;
+}
+
+#judul{
+    font-size:18px;
+    font-weight:bold;
+    padding-top:20px;
+    padding-left:10px;
+    font-family:sans-serif;
+}
+
+#main{
+    width:100%
+}
+
+.itemTemplate{
+    width:450px; 
+    height:300px; 
+    position:relative;
+    padding:5px;
+}
+
+.itemTemplate img
+{
+    width:450px; 
+    height:300px;
+}
+
+.keterangan{
+    position:absolute; 
+    bottom:3px; 
+    color:#fff;
+    padding:15px;
+}
